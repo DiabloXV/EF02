@@ -6,6 +6,7 @@ namespace EF02
     {
         static void Main(string[] args)
         {
+            //By convention
             ITIDbContext context = new ITIDbContext();
         }
     }

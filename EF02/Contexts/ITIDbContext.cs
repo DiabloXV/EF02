@@ -12,7 +12,7 @@ namespace EF02.Contexts
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server = DESKTOP-DHMJ427 ; Database = ITIC42 ;  Trusted_Connection = True ; Encrypt = False");
+            optionsBuilder.UseSqlServer("server = ASUSTUF ; Database = ITIC42 ;  Trusted_Connection = True ; Encrypt = False");
         }
 
         DbSet<Student> Students { get; set; }
